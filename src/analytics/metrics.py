@@ -148,9 +148,23 @@ class AnalyticsEngine:
             df = pd.read_sql_query(query, conn)
 
         if df.empty:
-            return pd.DataFrame(columns=["timestamp", "total", "errors", "error_rate_pct"])
+            return pd.DataFrame(columns=["dt", "total", "errors", "error_rate_pct"])
 
-        df["dt"] = pd.to_datetime(df["timestamp_utc"], utc=True)
+        # Robust ISO-8601 parsing supporting fractional seconds, trailing Z, and timezone offsets
+        try:
+            df["dt"] = pd.to_datetime(
+                df["timestamp_utc"], format="ISO8601", utc=True, errors="coerce"
+            )
+        except Exception:
+            df["dt"] = pd.to_datetime(
+                df["timestamp_utc"], format="mixed", utc=True, errors="coerce"
+            )
+
+        # Safely drop any unparseable timestamps to prevent dashboard crash
+        df = df.dropna(subset=["dt"]).copy()
+        if df.empty:
+            return pd.DataFrame(columns=["dt", "total", "errors", "error_rate_pct"])
+
         df["is_error"] = df["severity"].isin(["ERROR", "CRITICAL"]).astype(int)
 
         grouped = df.set_index("dt").resample(freq).agg(

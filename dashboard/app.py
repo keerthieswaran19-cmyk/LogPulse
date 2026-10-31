@@ -13,7 +13,9 @@ import pandas as pd
 import streamlit as st
 
 from src.analytics.metrics import AnalyticsEngine
-from src.utils.db_utils import get_db_path
+from src.loader.db_loader import DBLoader
+from src.pipeline.orchestrator import PipelineOrchestrator
+from src.utils.db_utils import get_connection, get_db_path
 
 st.set_page_config(
     page_title="LogPulse – Log Analytics Pipeline",
@@ -54,6 +56,41 @@ def load_engine():
     return AnalyticsEngine(db_path)
 
 
+def bootstrap_database(db_path: str = None) -> bool:
+    """Ensure database schema exists and automatically seed sample data if empty.
+
+    Safe for public cloud deployments (e.g. Streamlit Cloud) where db/logpulse.db
+    is excluded from Git. Preserves existing non-empty database records.
+
+    Returns:
+        True if sample data was newly ingested, False otherwise.
+    """
+    if db_path is None:
+        db_path = get_db_path()
+
+    try:
+        loader = DBLoader(db_path)
+        loader.init_db()
+
+        with get_connection(db_path) as conn:
+            row = conn.execute("SELECT COUNT(*) FROM log_events").fetchone()
+            count = row[0] if row else 0
+
+        # Only bootstrap if log_events has zero records
+        if count == 0:
+            sample_dir = PROJECT_ROOT / "data" / "sample"
+            if sample_dir.exists():
+                orchestrator = PipelineOrchestrator(db_path=db_path)
+                sample_files = orchestrator.discover_files(raw_dir=str(sample_dir))
+                if sample_files:
+                    orchestrator.run(raw_dir=str(sample_dir))
+                    return True
+        return False
+    except Exception as e:
+        st.warning(f"Database bootstrap warning: {e}")
+        return False
+
+
 def main():
     st.markdown('<div class="main-title">⚡ LogPulse</div>', unsafe_allow_html=True)
     st.markdown(
@@ -62,10 +99,13 @@ def main():
     )
 
     engine = load_engine()
+    bootstrapped = bootstrap_database(engine.db_path)
 
     # Sidebar
     st.sidebar.title("Pipeline Controls")
     st.sidebar.info(f"📁 Database: `{os.path.basename(engine.db_path)}`")
+    if bootstrapped:
+        st.sidebar.success("⚡ Demo sample data automatically initialized!")
     if st.sidebar.button("🔄 Refresh Data", use_container_width=True):
         st.rerun()
 
