@@ -1,0 +1,334 @@
+2026-10-30T11:48:58Z WARNING user-service [req-b3b27855] Retry attempt 1 for upstream service
+Oct 30 23:31:43 WARNING notification-service [req-1f5dc0bd] Rate limit threshold approaching 80%
+Oct 30 08:04:47 ERROR auth-service [req-ce65d378] JSON decode failure in webhook payload
+2026-10-30T23:05:52Z CRITICAL search-service [req-4e4a8372] Security alert: Multiple failed admin authentication attempts detected
+Oct 30 20:13:24 INFO notification-service [req-05a925d8] HTTP request processed 200 OK | latency=122.71ms
+2026-10-31 01:54:01 INFO payment-service [req-7a7e66b5] Notification dispatched via email
+2026-10-31 02:15:34 INFO payment-service [req-3df3d71d] Token issued for user session
+2026-10-30T15:41:47Z WARNING api-gateway [req-2470edf2] Slow database query detected | latency=140.44ms
+2026-10-30T15:50:25Z INFO auth-service [req-cb455433] Notification dispatched via email
+2026-10-31T04:07:40Z WARNING inventory-service [req-c4512e85] Cache miss for query key, reading from primary replica
+2026-10-31T04:11:57Z INFO api-gateway [req-b65af680] Order checkout initialized
+2026-10-30T11:53:18Z WARNING payment-service [req-2e9d8473] Slow database query detected | latency=71.51ms
+2026-10-30T11:27:26Z CRITICAL order-service [req-5bd7b003] Deadlock detected in transactional database cluster
+2026-10-30T15:46:05Z INFO auth-service [req-87dfe1f4] Notification dispatched via email
+Oct 30 15:02:58 INFO search-service [req-358cec63] User authenticated successfully
+2026-10-31T03:28:51Z DEBUG notification-service [req-2ccfc975] Payload serialized to JSON
+2026-10-30T08:43:34Z INFO search-service [req-4c6af827] Cache hit for key user_profile
+2026-10-30 07:25:59 INFO notification-service [req-2c819cb5] Notification dispatched via email
+2026-10-30T13:10:53Z DEBUG api-gateway [req-109f7c11] Connection pool acquired connection
+2026-10-31T04:16:16Z INFO api-gateway [req-d6201b49] Search query executed successfully | latency=415.94ms
+2026-10-30T22:35:41Z DEBUG order-service [req-96494156] Redis ping latency=128.4ms
+2026-10-31T00:53:38Z ERROR api-gateway [req-f09e7d8c] Failed to write record to replica
+2026-10-30T21:56:54Z DEBUG auth-service [req-1ab7364a] Payload serialized to JSON
+2026-10-30T10:48:37Z INFO notification-service [req-695ac746] User authenticated successfully
+2026-10-30T17:33:53Z INFO auth-service [req-86c22004] Notification dispatched via email
+2026-10-31T03:24:33Z INFO notification-service [req-dbeebbe5] HTTP request processed 200 OK | latency=100.82ms
+2026-10-31T04:20:35Z INFO notification-service [req-6da3ac3b] Cache hit for key user_profile
+2026-10-30T23:40:20Z INFO search-service [req-299d9f45] User authenticated successfully
+2026-10-31T02:58:40Z WARNING order-service [req-23dc7197] Slow database query detected | latency=360.65ms
+2026-10-30T11:31:44Z DEBUG notification-service [req-81d27549] Redis ping latency=280.56ms
+2026-10-30T19:30:17Z WARNING auth-service [req-6a349b9c] Slow database query detected | latency=27.93ms
+2026-10-30 12:57:58 INFO search-service [req-2d783ab0] Token issued for user session
+2026-10-30T09:31:01Z DEBUG auth-service [req-72d2c9f8] Connection pool acquired connection
+2026-10-30T21:00:50Z DEBUG auth-service [req-1833b01c] Evaluating feature flag dark_launch_v2
+2026-10-30T09:35:19Z DEBUG payment-service [req-1fc1d81b] Payload serialized to JSON
+2026-10-30T19:21:40Z INFO inventory-service [req-ed6e3e03] Cache hit for key user_profile
+2026-10-30T13:49:42Z INFO user-service [req-49f0b684] Notification dispatched via email
+2026-10-30T22:18:27Z INFO api-gateway [req-056d4740] Token issued for user session
+Oct 30 22:39:59 WARNING user-service [req-65984790] Slow database query detected | latency=425.97ms
+2026-10-30 16:42:10 INFO user-service [req-cc2a3aef] Order checkout initialized
+2026-10-30T18:42:52Z WARNING search-service [req-3293d72a] Rate limit threshold approaching 80%
+2026-10-30T08:47:54Z INFO search-service [req-a3506495] Token issued for user session
+not-a-valid-date-format INFO order-service [req-err-0] Transaction failed with unparseable date
+2026-10-31T01:23:49Z INFO user-service [req-f536f32c] User authenticated successfully
+2026-10-31 00:57:57 INFO notification-service [req-e22c5cc2] HTTP request processed 200 OK | latency=125.22ms
+2026-10-30T16:59:24Z DEBUG inventory-service [req-43d93f91] Parsing request headers
+2026-10-30T11:10:11Z DEBUG inventory-service [req-c0d6e094] Parsing request headers
+2026-10-30T08:52:13Z INFO search-service [req-77e34e69] Inventory reserved for order
+2026-10-30T20:22:02Z WARNING search-service [req-c3a087a7] Retry attempt 1 for upstream service
+2026-10-30T13:45:23Z INFO api-gateway [req-0163c44c] HTTP request processed 200 OK | latency=117.5ms
+2026-10-30 19:34:35 INFO notification-service [req-1da8c24b] HTTP request processed 200 OK | latency=157.23ms
+Oct 31 02:24:11 DEBUG notification-service [req-c60ffd0b] Payload serialized to JSON
+1793379306149 INFO order-service [req-816b35b6] Notification dispatched via email
+2026-10-30T16:11:59Z WARNING payment-service [req-7f948a8d] Cache miss for query key, reading from primary replica
+2026-10-30T23:57:36Z INFO user-service [req-583e9928] User authenticated successfully
+Oct 30 20:56:31 WARNING search-service [req-4b92488b] Rate limit threshold approaching 80%
+2026-10-31T03:03:00Z INFO order-service [req-2d926e2b] Cache hit for key user_profile
+2026-10-30 10:27:04 INFO api-gateway [req-24c24823] Token issued for user session
+2026-10-31 04:33:31 INFO inventory-service [req-03d5b4ca] Inventory reserved for order
+2026-10-30T18:21:19Z ERROR auth-service [req-86fab014] JSON decode failure in webhook payload
+Oct 30 22:09:49 INFO search-service [req-329e497e] Cache hit for key user_profile
+2026-10-31T00:19:10Z DEBUG inventory-service [req-fad2e70d] Connection pool acquired connection
+2026-10-30T20:34:59Z INFO api-gateway [req-549fc3fd] Order checkout initialized
+2026-10-30T14:06:56Z WARNING order-service [req-d91fc384] Token expiring in 5 minutes
+Oct 30 10:57:14 ERROR notification-service [req-d2965086] Upstream HTTP 503 Service Unavailable
+2026-10-30T13:28:09Z ERROR inventory-service [req-487e8d58] Payment gateway declined transaction: Insufficient funds
+2026-10-31T03:33:10Z DEBUG auth-service [req-da6475c7] Evaluating feature flag dark_launch_v2
+2026-10-30 14:19:52 INFO payment-service [req-80238e6e] Inventory reserved for order
+not-a-valid-date-format INFO search-service [req-err-3] Transaction failed with unparseable date
+2026-10-30T06:42:52Z INFO order-service [req-73ed7661] User authenticated successfully
+2026-10-30T08:56:31Z INFO inventory-service [req-c51f216c] Token issued for user session
+2026-10-30T23:18:47Z WARNING auth-service [req-c60a8067] Slow database query detected | latency=448.58ms
+1793416038920 INFO payment-service [req-3503ad53] User authenticated successfully
+2026-10-30T07:56:09Z INFO auth-service [req-05b20d6f] Notification dispatched via email
+2026-10-31T03:59:01Z CRITICAL search-service [req-0bbe5b01] Deadlock detected in transactional database cluster
+2026-10-30T12:45:01Z INFO search-service [req-44c72e0e] Order checkout initialized
+2026-10-30T14:45:45Z INFO auth-service [req-45de04b8] Search query executed successfully | latency=446.2ms
+2026-10-30T17:12:20Z INFO payment-service [req-7ded7198] Order checkout initialized
+Oct 30 06:21:18 INFO payment-service [req-d4bcd441] Token issued for user session
+2026-10-31T01:41:03Z INFO search-service [req-8779b505] Notification dispatched via email
+2026-10-30 06:51:30 INFO payment-service [req-04ec25a0] Inventory reserved for order
+2026-10-31T01:28:08Z INFO user-service [req-a40b97d5] HTTP request processed 200 OK | latency=287.34ms
+2026-10-30T21:13:46Z INFO user-service [req-1767ff54] Notification dispatched via email
+2026-10-30T16:16:16Z INFO payment-service [req-14d272da] Order checkout initialized
+2026-10-30T13:58:20Z ERROR notification-service [req-3c77aa12] Upstream HTTP 503 Service Unavailable
+2026-10-30T09:00:50Z WARNING auth-service [req-e6bd9d8c] Slow database query detected | latency=212.18ms
+2026-10-30T10:14:08Z WARNING search-service [req-322ff7e5] Retry attempt 1 for upstream service
+2026-10-31T01:36:45Z INFO inventory-service [req-b8ed945c] User authenticated successfully
+2026-10-30T16:24:53Z DEBUG order-service [req-0d6cffd6] Payload serialized to JSON
+2026-10-31T00:10:31Z INFO notification-service [req-04e6d76a] User authenticated successfully
+2026-10-31 01:19:32 INFO order-service [req-a238074b] Search query executed successfully | latency=284.05ms
+Oct 30 16:07:40 ERROR payment-service [req-9ba0348a] Failed to write record to replica
+2026-10-30T21:48:14Z INFO inventory-service [req-ff19aedf] Inventory reserved for order
+2026-10-30T23:44:39Z INFO search-service [req-1b13c773] Search query executed successfully | latency=86.15ms
+2026-10-31T03:24:33Z INFO notification-service [req-dbeebbe5] HTTP request processed 200 OK | latency=100.82ms
+2026-10-30T10:39:59Z ERROR search-service [req-3678c804] JSON decode failure in webhook payload
+2026-10-30T23:23:07Z INFO auth-service [req-8b6e49c3] Token issued for user session
+2026-10-30 19:17:21 DEBUG user-service [req-1cd1fb57] Parsing request headers
+2026-10-30T22:52:55Z INFO search-service [req-1a38f3c8] Inventory reserved for order
+2026-10-31T00:23:27Z WARNING user-service [req-c3612ced] Cache miss for query key, reading from primary replica
+2026-10-31T03:20:15Z INFO user-service [req-0b4527c5] Inventory reserved for order
+Oct 30 09:52:35 ERROR api-gateway [req-8316765c] Upstream HTTP 503 Service Unavailable
+2026-10-30T10:05:29Z INFO api-gateway [req-0aee7057] User authenticated successfully
+Oct 31 03:11:38 WARNING inventory-service [req-584bd1ff] Token expiring in 5 minutes
+2026-10-30T06:34:15Z INFO user-service [req-d955bb11] Order checkout initialized
+2026-10-30T12:06:13Z CRITICAL search-service [req-f1419e1d] Deadlock detected in transactional database cluster
+2026-10-30 14:28:30 INFO notification-service [req-700c71e6] Token issued for user session
+2026-10-30T20:47:53Z INFO user-service [req-62bdb3f7] Search query executed successfully | latency=249.88ms
+2026-10-30T23:27:25Z WARNING order-service [req-6567c006] Retry attempt 1 for upstream service
+2026-10-30T20:04:48Z INFO payment-service [req-0e808f52] Cache hit for key user_profile
+2026-10-30T15:15:56Z INFO search-service [req-7ee6b78a] User authenticated successfully
+1793376200513 INFO search-service [req-822ce297] Cache hit for key user_profile
+2026-10-30T20:43:35Z INFO order-service [req-b9ec2cbc] HTTP request processed 200 OK | latency=200.79ms
+Oct 30 21:43:56 INFO inventory-service [req-3dbade27] Notification dispatched via email
+2026-10-31T04:50:47Z DEBUG api-gateway [req-986f0f94] Evaluating feature flag dark_launch_v2
+2026-10-30T11:01:32Z INFO payment-service [req-5e78dd39] Inventory reserved for order
+2026-10-31T02:06:57Z INFO search-service [req-7606828a] Token issued for user session
+1793363267806 DEBUG auth-service [req-b7302a47] Parsing request headers
+Oct 30 17:29:34 INFO search-service [req-e3937b4f] Search query executed successfully | latency=339.32ms
+2026-10-31T01:06:36Z INFO search-service [req-81674cbe] Notification dispatched via email
+2026-10-30T13:53:59Z DEBUG search-service [req-1ff1fc99] Payload serialized to JSON
+2026-10-30T07:51:50Z CRITICAL payment-service [req-db775b4f] Primary storage disk capacity exceeded 98%
+2026-10-30 22:14:08 INFO search-service [req-72f9b675] Inventory reserved for order
+2026-10-30T19:13:03Z INFO payment-service [req-7d0d6ae3] HTTP request processed 200 OK | latency=417.5ms
+Oct 30 10:31:22 DEBUG api-gateway [req-8e8cfbbd] Evaluating feature flag dark_launch_v2
+2026-10-30T18:47:10Z INFO inventory-service [req-cf430bcb] Search query executed successfully | latency=378.11ms
+2026-10-30 14:11:15 DEBUG api-gateway [req-72c029c3] Payload serialized to JSON
+2026-10-31T02:54:21Z INFO payment-service [req-80c73fb4] Search query executed successfully | latency=357.44ms
+2026-10-31T03:50:25Z INFO inventory-service [req-b2abb365] Order checkout initialized
+2026-10-30T22:27:04Z INFO payment-service [req-a4a555cd] User authenticated successfully
+2026-10-31T03:41:47Z INFO api-gateway [req-17c39e08] Inventory reserved for order
+2026-10-30T08:26:21Z INFO order-service [req-36485f7f] Inventory reserved for order
+2026-10-30T07:17:22Z INFO api-gateway [req-796ba538] User authenticated successfully
+2026-10-30T19:38:55Z INFO notification-service [req-764f66ec] Inventory reserved for order
+2026-10-30T18:12:42Z WARNING user-service [req-a6015e85] Rate limit threshold approaching 80%
+2026-10-30T09:13:46Z INFO inventory-service [req-053197ae] HTTP request processed 200 OK | latency=438.64ms
+1793400518121 ERROR payment-service [req-3bcea6fb] Database connection failed: timeout after 5000ms | latency=2301.18ms
+1793373613774 INFO user-service [req-e1a784a8] Token issued for user session
+2026-10-30T16:33:32Z INFO search-service [req-a8095b6f] Cache hit for key user_profile
+2026-10-30T08:09:05Z INFO notification-service [req-64f9f7c3] Cache hit for key user_profile
+:::CORRUPTED_STREAM_BYTE_CHUNK_9999:::
+2026-10-31T04:03:21Z INFO notification-service [req-dbcf99c7] Inventory reserved for order
+2026-10-31T01:10:54Z INFO notification-service [req-9dd367f4] HTTP request processed 200 OK | latency=49.03ms
+2026-10-30T20:39:16Z INFO api-gateway [req-57f09bd1] HTTP request processed 200 OK | latency=113.26ms
+2026-10-31 00:36:24 WARNING inventory-service [req-21d81fb1] Slow database query detected | latency=222.25ms
+2026-10-30T20:00:28Z ERROR inventory-service [req-b412b94e] Failed to write record to replica
+2026-10-30T16:11:59Z WARNING payment-service [req-7f948a8d] Cache miss for query key, reading from primary replica
+Oct 31 04:24:54 INFO auth-service [req-63d27a76] Notification dispatched via email
+2026-10-31T01:49:42Z INFO inventory-service [req-847e46e9] Inventory reserved for order
+1793355764795 INFO order-service [req-c8c16606] User authenticated successfully
+Oct 31 04:46:27 ERROR notification-service [req-22137d38] Database connection failed: timeout after 5000ms | latency=1829.29ms
+2026-10-30T11:40:21Z INFO auth-service [req-297756fb] HTTP request processed 200 OK | latency=19.6ms
+1793346452163 DEBUG order-service [req-3a4ae85b] Connection pool acquired connection
+2026-10-30T17:38:11Z WARNING payment-service [req-5d0dbc8a] Slow database query detected | latency=73.94ms
+2026-10-30T18:08:22Z INFO payment-service [req-2f253db2] Notification dispatched via email
+Oct 30 22:01:11 DEBUG api-gateway [req-1e5310df] Evaluating feature flag dark_launch_v2
+2026-10-30T06:29:55Z INFO notification-service [req-7312d811] User authenticated successfully
+Oct 30 10:09:50 WARNING payment-service [req-9f289c25] Token expiring in 5 minutes
+2026-10-30T17:55:26Z INFO payment-service [req-010bd11c] HTTP request processed 200 OK | latency=415.59ms
+2026-10-30 18:34:15 INFO api-gateway [req-8cde0495] HTTP request processed 200 OK | latency=234.64ms
+2026-10-30T09:39:38Z INFO order-service [req-04e1b506] Notification dispatched via email
+2026-10-30T12:53:40Z WARNING order-service [req-0da1b9ca] Slow database query detected | latency=22.14ms
+2026-10-30T14:37:07Z INFO search-service [req-6d6cb8c8] Notification dispatched via email
+2026-10-31T02:19:53Z ERROR user-service [req-53d7334a] Database connection failed: timeout after 5000ms | latency=1791.86ms
+2026-10-30T19:47:31Z WARNING auth-service [req-313eb33d] Slow database query detected | latency=207.51ms
+2026-10-31T04:55:06Z DEBUG user-service [req-ad4676e8] Parsing request headers
+2026-10-30T13:15:13Z DEBUG inventory-service [req-aca137ae] Redis ping latency=200.4ms
+2026-10-30T12:40:43Z INFO inventory-service [req-5e333e1f] Order checkout initialized
+2026-10-30T20:30:38Z DEBUG payment-service [req-c92d5b6f] Evaluating feature flag dark_launch_v2
+Oct 30 13:02:16 ERROR auth-service [req-36503fd2] JSON decode failure in webhook payload
+2026-10-30 12:36:24 WARNING order-service [req-985533c4] Slow database query detected | latency=54.44ms
+2026-10-30T22:22:45Z INFO order-service [req-fc25fdc4] Inventory reserved for order
+2026-10-30T22:57:15Z WARNING notification-service [req-48e74b98] Token expiring in 5 minutes
+Oct 30 14:15:34 INFO search-service [req-858e4997] User authenticated successfully
+2026-10-30T18:25:37Z ERROR api-gateway [req-d1ea464c] Failed to write record to replica
+2026-10-30T06:38:33Z INFO user-service [req-7c268dd4] Notification dispatched via email
+2026-10-30T21:09:28Z ERROR notification-service [req-4022f374] Payment gateway declined transaction: Insufficient funds
+2026-10-30T07:30:17Z INFO order-service [req-6c09fbff] Cache hit for key user_profile
+2026-10-30T19:00:06Z INFO search-service [req-b78bb360] Order checkout initialized
+Oct 31 04:29:12 INFO order-service [req-ef86c326] HTTP request processed 200 OK | latency=68.21ms
+Oct 30 07:34:36 DEBUG order-service [req-2618dd4a] Parsing request headers
+2026-10-31T01:58:19Z INFO order-service [req-749fd754] Inventory reserved for order
+2026-10-30T13:19:31Z INFO user-service [req-63994d1a] User authenticated successfully
+2026-10-31T01:02:15Z INFO inventory-service [req-cca32ba8] User authenticated successfully
+2026-10-30T19:04:25Z INFO search-service [req-e8eadbf6] Cache hit for key user_profile
+2026-10-30T22:27:04Z INFO payment-service [req-a4a555cd] User authenticated successfully
+2026-10-30T22:05:31Z WARNING notification-service [req-f0695772] Rate limit threshold approaching 80%
+2026-10-30T13:41:05Z INFO search-service [req-c3ff877b] HTTP request processed 200 OK | latency=93.3ms
+2026-10-30T09:18:05Z DEBUG order-service [req-4160bdcc] Evaluating feature flag dark_launch_v2
+2026-10-30T18:29:57Z INFO notification-service [req-b81e5d64] Cache hit for key user_profile
+2026-10-30T06:17:00Z DEBUG payment-service [req-efe96429] Parsing request headers
+2026-10-30 06:12:42 INFO api-gateway [req-738e325a] HTTP request processed 200 OK | latency=333.97ms
+2026-10-31 03:15:56 DEBUG order-service [req-f2193ece] Connection pool acquired connection
+2026-10-31T01:41:03Z INFO search-service [req-8779b505] Notification dispatched via email
+2026-10-31 00:27:46 WARNING notification-service [req-c71464d7] Token expiring in 5 minutes
+2026-10-31T03:46:06Z WARNING user-service [req-b94a2c57] Rate limit threshold approaching 80%
+2026-10-30T08:34:58Z WARNING user-service [req-c20c53c1] Cache miss for query key, reading from primary replica
+2026-10-30T18:51:29Z WARNING api-gateway [req-3b0a70e0] Retry attempt 1 for upstream service
+2026-10-30T06:25:37Z INFO search-service [req-8596f70a] Notification dispatched via email
+2026-10-30T12:10:33Z INFO payment-service [req-9a90a1d6] Search query executed successfully | latency=229.04ms
+2026-10-31T00:01:55Z INFO api-gateway [req-5db10333] Cache hit for key user_profile
+2026-10-30T14:32:49Z INFO user-service [req-1d5760f0] HTTP request processed 200 OK | latency=437.01ms
+2026-10-30T21:52:35Z WARNING order-service [req-fd020195] Rate limit threshold approaching 80%
+Oct 30 21:26:41 INFO api-gateway [req-2cb7b7cb] Search query executed successfully | latency=144.62ms
+2026-10-30T12:01:55Z INFO notification-service [req-d7a8519d] User authenticated successfully
+2026-10-30 18:16:59 ERROR api-gateway [req-2c341d77] Database connection failed: timeout after 5000ms | latency=2852.09ms
+2026-10-30 10:35:40 DEBUG api-gateway [req-c96a8a0d] Evaluating feature flag dark_launch_v2
+2026-10-31T00:06:14Z INFO api-gateway [req-1953e3d1] Cache hit for key user_profile
+2026-10-30T14:24:11Z INFO auth-service [req-b9ee02ac] Notification dispatched via email
+2026-10-30T19:08:45Z INFO api-gateway [req-53e08930] HTTP request processed 200 OK | latency=205.56ms
+2026-10-31 03:37:28 DEBUG api-gateway [req-9acc52d2] Connection pool acquired connection
+2026-10-30T10:52:56Z INFO auth-service [req-8e6b1fc8] Notification dispatched via email
+2026-10-31 02:41:26 WARNING order-service [req-ec3dada7] Rate limit threshold approaching 80%
+2026-10-30T12:23:27Z WARNING search-service [req-896dce69] Token expiring in 5 minutes
+2026-10-30T23:48:59Z INFO search-service [req-bd40b45a] Inventory reserved for order
+2026-10-30T11:57:35Z WARNING notification-service [req-ce1eceb4] Token expiring in 5 minutes
+Oct 30 20:52:13 DEBUG auth-service [req-4c1f1f0d] Evaluating feature flag dark_launch_v2
+2026-10-30T15:24:32Z INFO user-service [req-08b1ac99] Order checkout initialized
+2026-10-30T17:20:57Z ERROR search-service [req-2392e4ec] Database connection failed: timeout after 5000ms | latency=1288.03ms
+2026-10-30T09:56:52Z INFO inventory-service [req-309ff9eb] Search query executed successfully | latency=153.39ms
+2026-10-30 14:02:38 INFO payment-service [req-8e353264] Token issued for user session
+2026-10-30T11:14:29Z INFO order-service [req-f6dc7b06] User authenticated successfully
+2026-10-30T16:20:35Z INFO payment-service [req-ee4d4b42] Notification dispatched via email
+2026-10-30T19:25:59Z INFO search-service [req-492cf9db] HTTP request processed 200 OK | latency=136.32ms
+2026-10-30T08:39:17Z INFO search-service [req-e3e5ffb8] User authenticated successfully
+not-a-valid-date-format INFO order-service [req-err-4] Transaction failed with unparseable date
+2026-10-31 02:45:44 WARNING auth-service [req-38f37a9c] Cache miss for query key, reading from primary replica
+2026-10-30T18:55:49Z INFO order-service [req-e3791d88] Inventory reserved for order
+2026-10-30T13:23:49Z INFO order-service [req-fdb331e3] Token issued for user session
+2026-10-30T07:43:13Z DEBUG order-service [req-86e9b768] Evaluating feature flag dark_launch_v2
+2026-10-30T11:36:03Z INFO user-service [req-46e6ec3b] Order checkout initialized
+2026-10-30T07:21:41Z INFO inventory-service [req-b7dc706c] Search query executed successfully | latency=282.66ms
+1793377753822 INFO search-service [req-d0ca49de] Notification dispatched via email
+2026-10-30T15:54:42Z DEBUG order-service [req-a962c466] Parsing request headers
+Oct 30 19:43:13 WARNING auth-service [req-06e35e1d] Token expiring in 5 minutes
+2026-10-30T09:05:08Z INFO payment-service [req-373ff1a7] HTTP request processed 200 OK | latency=349.05ms
+2026-10-30 06:55:48 ERROR inventory-service [req-60943887] Database connection failed: timeout after 5000ms | latency=1468.47ms
+Oct 31 01:15:11 INFO search-service [req-9ac66982] Search query executed successfully | latency=300.27ms
+2026-10-30T06:47:10Z INFO api-gateway [req-f23f0ea2] User authenticated successfully
+2026-10-30T23:36:02Z INFO notification-service [req-9ad8d55a] Cache hit for key user_profile
+2026-10-30T16:50:46Z WARNING order-service [req-0f4fbce6] Token expiring in 5 minutes
+2026-10-30 10:01:11 INFO inventory-service [req-cb7ea9da] Cache hit for key user_profile
+2026-10-30 17:42:30 INFO api-gateway [req-f8bcde6a] Order checkout initialized
+Oct 30 21:35:20 INFO notification-service [req-5194904f] Inventory reserved for order
+2026-10-30T12:32:06Z INFO order-service [req-5ee2dccf] Cache hit for key user_profile
+2026-10-30 13:06:35 INFO auth-service [req-778ba352] Notification dispatched via email
+2026-10-30T18:38:34Z DEBUG payment-service [req-82936d7e] Evaluating feature flag dark_launch_v2
+2026-10-30T21:31:01Z INFO payment-service [req-f9503599] Order checkout initialized
+2026-10-31 01:45:23 DEBUG search-service [req-c6354983] Payload serialized to JSON
+2026-10-30T17:08:01Z INFO inventory-service [req-c7e90aa6] HTTP request processed 200 OK | latency=160.91ms
+1793358351498 INFO auth-service [req-af354878] Cache hit for key user_profile
+2026-10-30T14:58:40Z INFO auth-service [req-6df8b0ca] Inventory reserved for order
+2026-10-30T23:01:33Z INFO user-service [req-f2e721c8] Search query executed successfully | latency=373.48ms
+2026-10-30T23:14:29Z DEBUG api-gateway [req-3d3c2700] Evaluating feature flag dark_launch_v2
+2026-10-30 07:13:04 INFO search-service [req-ee093e77] Inventory reserved for order
+2026-10-31T00:45:02Z DEBUG api-gateway [req-9c16218e] Redis ping latency=419.84ms
+2026-10-30T12:14:51Z DEBUG api-gateway [req-005f8d29] Connection pool acquired connection
+2026-10-30T16:46:28Z INFO api-gateway [req-eb60163d] Search query executed successfully | latency=384.51ms
+2026-10-31 02:37:06 WARNING payment-service [req-fa2b48bd] Rate limit threshold approaching 80%
+2026-10-30T06:08:22Z WARNING api-gateway [req-71abb916] Rate limit threshold approaching 80%
+2026-10-30 07:38:55 INFO order-service [req-2261205a] Inventory reserved for order
+2026-10-30T22:44:19Z INFO search-service [req-c86baace] Order checkout initialized
+Oct 30 21:39:37 DEBUG inventory-service [req-65dab173] Payload serialized to JSON
+2026-10-30T15:07:17Z INFO inventory-service [req-fd7ba938] Notification dispatched via email
+2026-10-31T04:37:51Z INFO search-service [req-d33893d3] Inventory reserved for order
+2026-10-30T19:51:51Z WARNING inventory-service [req-e2f23c4c] Cache miss for query key, reading from primary replica
+2026-10-31 03:54:43 DEBUG payment-service [req-3c0878f0] Parsing request headers
+2026-10-30T13:36:46Z INFO notification-service [req-101a8c1f] Inventory reserved for order
+2026-10-31 00:32:06 WARNING order-service [req-6b83089a] Slow database query detected | latency=277.53ms
+2026-10-30T09:09:28Z INFO notification-service [req-39ec6c5a] Inventory reserved for order
+2026-10-30 22:31:22 INFO payment-service [req-46da3e0f] Search query executed successfully | latency=83.65ms
+2026-10-31T02:11:14Z DEBUG search-service [req-bec0b917] Redis ping latency=425.23ms
+2026-10-30T17:16:38Z INFO notification-service [req-5c4fc419] Inventory reserved for order
+2026-10-30T10:44:18Z INFO notification-service [req-85881359] Notification dispatched via email
+2026-10-30T15:11:37Z INFO order-service [req-76a1122b] User authenticated successfully
+Oct 30 09:48:16 DEBUG auth-service [req-15c2854d] Redis ping latency=385.84ms
+2026-10-31T02:50:03Z INFO inventory-service [req-3c8ecf41] Cache hit for key user_profile
+2026-10-30T06:47:10Z INFO api-gateway [req-f23f0ea2] User authenticated successfully
+Oct 30 14:41:26 INFO user-service [req-cc6d8ca1] Token issued for user session
+2026-10-31T02:32:49Z DEBUG api-gateway [req-744d91e8] Evaluating feature flag dark_launch_v2
+2026-10-30T07:08:44Z DEBUG order-service [req-e39db434] Redis ping latency=200.77ms
+2026-10-30 23:53:18 INFO notification-service [req-9de6d6ba] Token issued for user session
+2026-10-30T08:30:39Z INFO api-gateway [req-909ca15a] Order checkout initialized
+Oct 31 04:42:09 INFO inventory-service [req-0cf9e20f] Order checkout initialized
+1793413710979 INFO search-service [req-d3c184b8] Inventory reserved for order
+2026-10-30T23:10:11Z INFO order-service [req-e08ab2d6] Search query executed successfully | latency=72.94ms
+2026-10-31T06:08:23.051928+00:00 INFO api-gateway [req-err-1] 
+2026-10-30 08:22:02 DEBUG auth-service [req-ddfdd6dd] Evaluating feature flag dark_launch_v2
+2026-10-30T15:59:02Z INFO search-service [req-57f2e45f] Inventory reserved for order
+2026-10-30T15:07:17Z INFO inventory-service [req-fd7ba938] Notification dispatched via email
+2026-10-30T20:17:42Z INFO order-service [req-45ef1cbd] User authenticated successfully
+1793407243788 INFO auth-service [req-b5cf4190] Cache hit for key user_profile
+2026-10-31T00:49:19Z INFO notification-service [req-979aa4ef] Order checkout initialized
+Oct 31 00:14:50 INFO payment-service [req-f8f6bcb9] Order checkout initialized
+2026-10-30T14:50:03Z DEBUG user-service [req-f69dcccd] Connection pool acquired connection
+2026-10-30T14:54:21Z WARNING notification-service [req-633ad583] Cache miss for query key, reading from primary replica
+2026-10-30T13:32:27Z ERROR notification-service [req-228e5fb5] JSON decode failure in webhook payload
+2026-10-30T08:00:28Z INFO user-service [req-890212fa] Notification dispatched via email
+Oct 30 10:31:22 DEBUG api-gateway [req-8e8cfbbd] Evaluating feature flag dark_launch_v2
+2026-10-30T19:56:09Z INFO search-service [req-79073fc4] Inventory reserved for order
+Oct 30 15:37:29 DEBUG api-gateway [req-22158ac2] Payload serialized to JSON
+2026-10-30T17:59:45Z DEBUG api-gateway [req-a4e11629] Parsing request headers
+2026-10-30T21:18:05Z INFO payment-service [req-92d2c70b] Notification dispatched via email
+2026-10-30 11:18:48 INFO notification-service [req-b6f25b72] Inventory reserved for order
+2026-10-30T17:51:08Z INFO payment-service [req-f3bd3a0c] User authenticated successfully
+2026-10-30T13:41:05Z INFO search-service [req-c3ff877b] HTTP request processed 200 OK | latency=93.3ms
+2026-10-30T20:26:20Z INFO search-service [req-57c96ba1] HTTP request processed 200 OK | latency=57.51ms
+2026-10-30T17:03:43Z INFO payment-service [req-9635c52c] HTTP request processed 200 OK | latency=404.95ms
+2026-10-30 08:13:25 WARNING payment-service [req-9816549e] Cache miss for query key, reading from primary replica
+2026-10-30 07:04:25 INFO api-gateway [req-c7d9c459] Inventory reserved for order
+2026-10-31T06:08:23.051928+00:00 INFO api-gateway [req-err-5] 
+2026-10-30T18:04:03Z WARNING notification-service [req-cf34274f] Rate limit threshold approaching 80%
+2026-10-30T08:17:43Z INFO auth-service [req-2507d708] HTTP request processed 200 OK | latency=16.79ms
+2026-10-30T06:47:10Z INFO api-gateway [req-f23f0ea2] User authenticated successfully
+2026-10-30T21:05:08Z DEBUG inventory-service [req-e68f91a8] Parsing request headers
+2026-10-30T17:25:17Z INFO user-service [req-eb152515] User authenticated successfully
+2026-10-30T11:44:39Z INFO notification-service [req-65eb5c07] Notification dispatched via email
+2026-10-30T09:22:23Z DEBUG search-service [req-1043f4f1] Connection pool acquired connection
+2026-10-30T15:28:52Z INFO order-service [req-40aa5131] Cache hit for key user_profile
+2026-10-30T12:49:19Z INFO api-gateway [req-66bb73ca] Notification dispatched via email
+2026-10-30T11:23:07Z INFO search-service [req-103f199b] Notification dispatched via email
+2026-10-30T16:37:51Z INFO notification-service [req-fd5bb7db] User authenticated successfully
+2026-10-30T12:19:09Z WARNING auth-service [req-28733f13] Slow database query detected | latency=79.75ms
+2026-10-31 02:02:37 WARNING order-service [req-59f5913a] Token expiring in 5 minutes
+2026-10-30T09:43:58Z WARNING order-service [req-c6796fbb] Slow database query detected | latency=204.11ms
+2026-10-30 10:18:27 INFO auth-service [req-e163b172] Inventory reserved for order
+2026-10-30T09:26:42Z DEBUG inventory-service [req-c1bbd0e4] Connection pool acquired connection
+2026-10-30T15:33:10Z INFO notification-service [req-9734da7d] Inventory reserved for order
+2026-10-30T20:09:06Z CRITICAL api-gateway [req-2f286a4d] Primary storage disk capacity exceeded 98%
+2026-10-30T17:46:48Z DEBUG order-service [req-35f59850] Redis ping latency=251.51ms
+1793410347284 INFO payment-service [req-5fb5999d] Inventory reserved for order
+2026-10-30T07:00:07Z ERROR notification-service [req-8b4da24d] Upstream HTTP 503 Service Unavailable
+2026-10-30 21:22:23 INFO auth-service [req-aeaf9d43] Inventory reserved for order
+2026-10-30T12:45:01Z INFO search-service [req-44c72e0e] Order checkout initialized

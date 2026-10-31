@@ -1,0 +1,53 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets & Environment variables
+.env
+*.env
+!.env.example
+secrets.yaml
+*.pem
+*.key
+
+# SQLite Database files (Exclude 60MB+ database)
+db/*.db
+db/*.db-wal
+db/*.db-shm
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated Raw Data (Exclude 100K+ generated files, preserve .gitkeep)
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated Quarantine Audit Logs (Exclude dynamic CSV exports, preserve .gitkeep)
+data/quarantine/*.csv
+!data/quarantine/.gitkeep
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+!data/sample/*.log

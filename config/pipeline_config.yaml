@@ -1,0 +1,56 @@
+# LogPulse Pipeline Configuration
+
+# Database
+database:
+  path: "db/logpulse.db"
+
+# Data directories
+directories:
+  raw: "data/raw"
+  quarantine: "data/quarantine"
+  sample: "data/sample"
+
+# Pipeline settings
+pipeline:
+  max_retries: 3
+  retry_backoff_base: 2    # seconds (exponential backoff)
+  batch_size: 10000        # records per batch for large files
+
+# Validation rules
+validation:
+  allowed_severities:
+    - DEBUG
+    - INFO
+    - WARNING
+    - ERROR
+    - CRITICAL
+  required_fields:
+    - timestamp
+    - severity
+    - source
+    - message
+
+# Synthetic data generator defaults
+generator:
+  default_record_count: 100000
+  services:
+    - auth-service
+    - api-gateway
+    - payment-service
+    - user-service
+    - notification-service
+    - order-service
+    - inventory-service
+    - search-service
+  error_ratio: 0.08          # 8% of records will be ERROR/CRITICAL
+  duplicate_ratio: 0.03      # 3% deliberate duplicates
+  malformed_ratio: 0.02      # 2% malformed records
+  formats:
+    - json
+    - csv
+    - syslog
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s | %(name)-25s | %(levelname)-8s | %(message)s"
