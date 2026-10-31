@@ -45,6 +45,10 @@ st.markdown(
         border-radius: 8px;
         border: 1px solid #E2E8F0;
     }
+    /* Hide Streamlit default Deploy button and menu */
+    .stAppDeployButton, [data-testid="stAppDeployButton"] {
+        display: none !important;
+    }
     </style>
     """,
     unsafe_allow_html=True,
