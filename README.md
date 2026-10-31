@@ -162,7 +162,7 @@ The dashboard will open at `http://localhost:8501`, displaying live KPI cards, e
 
 ## 🧪 Automated Testing
 
-LogPulse includes 33 automated tests covering parser format detection, normalizers, schema validation, quarantine routing, deduplication, SQLite loader idempotency, analytics queries, and edge cases (retries, partial failures, out-of-order timestamps, schema aliases, empty files, and repeated reruns).
+LogPulse includes 40 automated tests covering parser format detection, normalizers, schema validation, quarantine routing, deduplication, SQLite loader idempotency, analytics queries, dashboard auto-bootstrapping, and edge cases (retries, partial failures, out-of-order timestamps, schema aliases, empty files, and repeated reruns).
 
 Run the full test suite with verbose output:
 
